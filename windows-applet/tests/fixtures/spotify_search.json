@@ -1,0 +1,71 @@
+{
+  "tracks": {
+    "href": "https://api.spotify.com/v1/x",
+    "limit": 1,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 0,
+    "items": [
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/x"
+              },
+              "href": "https://api.spotify.com/v1/x",
+              "id": "4GQiUTzA2gqRZc6WASHlqS",
+              "name": "Meg Lee Chin",
+              "type": "artist",
+              "uri": "spotify:artist:4GQiUTzA2gqRZc6WASHlqS"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/x"
+          },
+          "href": "https://api.spotify.com/v1/x",
+          "id": "450cCLG4Bw8FN66soHVp4O",
+          "images": [],
+          "is_playable": true,
+          "name": "Piece and Love",
+          "release_date": "1999-01-01",
+          "release_date_precision": "day",
+          "total_tracks": 10,
+          "type": "album",
+          "uri": "spotify:album:450cCLG4Bw8FN66soHVp4O"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/x"
+            },
+            "href": "https://api.spotify.com/v1/x",
+            "id": "4GQiUTzA2gqRZc6WASHlqS",
+            "name": "Meg Lee Chin",
+            "type": "artist",
+            "uri": "spotify:artist:4GQiUTzA2gqRZc6WASHlqS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 228066,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "uscgj0609745"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/x"
+        },
+        "href": "https://api.spotify.com/v1/x",
+        "id": "73u529CQGLESp2BCIGvPD9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Thing",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:73u529CQGLESp2BCIGvPD9"
+      }
+    ]
+  }
+}

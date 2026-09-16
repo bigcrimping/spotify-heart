@@ -1,0 +1,113 @@
+{
+  "tempo": [
+    {
+      "song_id": "zvr",
+      "song_title": "Thing",
+      "song_uri": "https://getsongbpm.com/song/thing/zvr",
+      "tempo": "120",
+      "artist": {
+        "id": "Pw",
+        "name": "Meg Lee Chin",
+        "uri": "https://getsongbpm.com/artist/meg-lee-chin/Pw",
+        "genres": [
+          "electronic"
+        ],
+        "from": null,
+        "mbid": "f75014c9-4950-4c79-b6e4-56e909ae76f2"
+      },
+      "album": {
+        "title": "Piece and Love",
+        "uri": "https://getsongbpm.com/album/piece-and-love/Rq",
+        "year": "1999"
+      }
+    },
+    {
+      "song_id": "nX7",
+      "song_title": "Money Changes Everything",
+      "song_uri": "https://getsongbpm.com/song/money-changes-everything/nX7",
+      "tempo": "120",
+      "artist": {
+        "id": "XQk",
+        "name": "Cyndi Lauper",
+        "uri": "https://getsongbpm.com/artist/cyndi-lauper/XQk",
+        "genres": [
+          "pop",
+          "rock"
+        ],
+        "from": "US",
+        "mbid": "7bd9e20e-74b9-446a-a2ed-a223f82a36e7"
+      },
+      "album": {
+        "title": "She's So Unusual",
+        "uri": "https://getsongbpm.com/album/she-s-so-unusual/76PvA",
+        "year": "1983"
+      }
+    },
+    {
+      "song_id": "L4p",
+      "song_title": "In Dust We Trust",
+      "song_uri": "https://getsongbpm.com/song/in-dust-we-trust/L4p",
+      "tempo": "120",
+      "artist": {
+        "id": "99P",
+        "name": "The Chemical Brothers",
+        "uri": "https://getsongbpm.com/artist/the-chemical-brothers/99P",
+        "genres": [
+          "electronic",
+          "rock"
+        ],
+        "from": "GB",
+        "mbid": "1946a82a-f927-40c2-8235-38d64f50d043"
+      },
+      "album": {
+        "title": "Exit Planet Dust",
+        "uri": "https://getsongbpm.com/album/exit-planet-dust/JPr6l",
+        "year": "1995"
+      }
+    },
+    {
+      "song_id": "P4y",
+      "song_title": "Chemical Beats",
+      "song_uri": "https://getsongbpm.com/song/chemical-beats/P4y",
+      "tempo": "120",
+      "artist": {
+        "id": "99P",
+        "name": "The Chemical Brothers",
+        "uri": "https://getsongbpm.com/artist/the-chemical-brothers/99P",
+        "genres": [
+          "electronic",
+          "rock"
+        ],
+        "from": "GB",
+        "mbid": "1946a82a-f927-40c2-8235-38d64f50d043"
+      },
+      "album": {
+        "title": "Exit Planet Dust",
+        "uri": "https://getsongbpm.com/album/exit-planet-dust/JPr6l",
+        "year": "1995"
+      }
+    },
+    {
+      "song_id": "Nk28",
+      "song_title": "Discothèque",
+      "song_uri": "https://getsongbpm.com/song/discotheque/Nk28",
+      "tempo": "120",
+      "artist": {
+        "id": "r86",
+        "name": "U2",
+        "uri": "https://getsongbpm.com/artist/u2/r86",
+        "genres": [
+          "pop",
+          "rock"
+        ],
+        "from": "IE",
+        "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432"
+      },
+      "album": {
+        "title": "Pop",
+        "uri": "https://getsongbpm.com/album/pop/98JJ4",
+        "year": "1997"
+      }
+    }
+  ]
+}

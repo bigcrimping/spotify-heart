@@ -1,0 +1,18 @@
+menu "Spotify Heart radar"
+
+    config HR_PRINT_EXTRAS
+        bool "Also print breath rate, distance and presence lines"
+        default n
+        help
+            The Windows app only reads "heart_rate:" lines and ignores the
+            rest, so these are safe to enable for bench work. Off by default
+            so the default output matches the Arduino HeartRateOnly sketch.
+
+    config HR_DUMP_FRAMES
+        bool "Print every received frame as hex ('frame: 01 00 ...')"
+        default n
+        help
+            Bench diagnostic used to capture test/fixtures/*.txt for the host
+            parser tests (PLAN.md Phase 3). Leave off for normal use.
+
+endmenu

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spotify-heart"
+dynamic = ["version"]
+description = "Queue tempo-matched Spotify songs from an MR60BHA2 heart-rate radar"
+requires-python = ">=3.11"
+dependencies = [
+    "pyserial>=3.5",
+    "requests>=2.32",
+    "pystray>=0.19",
+    "Pillow>=10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "responses>=0.25", "pyinstaller>=6"]
+
+[project.scripts]
+spotify-heart = "spotify_heart.__main__:main"
+
+[tool.setuptools]
+packages = ["spotify_heart"]
+
+[tool.setuptools.dynamic]
+version = { attr = "spotify_heart.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

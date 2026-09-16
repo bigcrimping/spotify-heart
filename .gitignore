@@ -1,0 +1,25 @@
+# --- secrets and per-machine runtime files (never commit) ---
+config.local.json
+tokens.json
+state.json
+.env
+cache/
+logs/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.spec
+
+# --- ESP-IDF ---
+esp32-heartrate/build/
+esp32-heartrate/build_dump/
+esp32-heartrate/sdkconfig
+esp32-heartrate/sdkconfig.old
+esp32-heartrate/dependencies.lock
+esp32-heartrate/managed_components/

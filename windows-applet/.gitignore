@@ -1,0 +1,14 @@
+tokens.json
+config.local.json
+.env
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+.pytest_cache/
+.venv/
+*.egg-info/
+state.json
+cache/
+logs/

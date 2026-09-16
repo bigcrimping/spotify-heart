@@ -1,0 +1,20 @@
+# Target: Seeed XIAO ESP32-C6 (on the MR60BHA2 module), 4 MB flash.
+
+CONFIG_IDF_TARGET="esp32c6"
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# --- Console on the native USB-Serial/JTAG ---
+# The heart-rate lines and the IDF console share this port. UART0's default
+# pins (GPIO16/17) are the radar link, so the console must NOT be on UART.
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
+
+# --- Quiet by default ---
+# The Windows app ignores anything that is not a "heart_rate:" line, but keep
+# the stream clean anyway.
+CONFIG_LOG_DEFAULT_LEVEL_WARN=y
+CONFIG_BOOTLOADER_LOG_LEVEL_WARN=y
+# No ANSI colour escapes in the few log lines that do get printed.
+CONFIG_LOG_COLORS=n
+
+# --- Float printf must work ("heart_rate: %.2f") ---
+# CONFIG_NEWLIB_NANO_FORMAT is not set

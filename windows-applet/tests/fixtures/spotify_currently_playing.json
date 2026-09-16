@@ -1,0 +1,97 @@
+{
+  "is_playing": true,
+  "timestamp": 1789589512619,
+  "context": {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/x"
+    },
+    "href": "https://api.spotify.com/v1/x",
+    "type": "playlist",
+    "uri": "spotify:playlist:test-playlist"
+  },
+  "progress_ms": 100497,
+  "item": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/x"
+          },
+          "href": "https://api.spotify.com/v1/x",
+          "id": "1exLNaF3aw3J6dwaA9wjvp",
+          "name": "The Left",
+          "type": "artist",
+          "uri": "spotify:artist:1exLNaF3aw3J6dwaA9wjvp"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/x"
+          },
+          "href": "https://api.spotify.com/v1/x",
+          "id": "151BUVKmiB9rHDjIkgbeVE",
+          "name": "Apollo Brown",
+          "type": "artist",
+          "uri": "spotify:artist:151BUVKmiB9rHDjIkgbeVE"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/x"
+      },
+      "href": "https://api.spotify.com/v1/x",
+      "id": "5eLEZmajP8lMqfO0TYxmVN",
+      "images": [],
+      "name": "Gas Mask (Deluxe Edition)",
+      "release_date": "2012-05-22",
+      "release_date_precision": "day",
+      "total_tracks": 19,
+      "type": "album",
+      "uri": "spotify:album:5eLEZmajP8lMqfO0TYxmVN"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/x"
+        },
+        "href": "https://api.spotify.com/v1/x",
+        "id": "1exLNaF3aw3J6dwaA9wjvp",
+        "name": "The Left",
+        "type": "artist",
+        "uri": "spotify:artist:1exLNaF3aw3J6dwaA9wjvp"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/x"
+        },
+        "href": "https://api.spotify.com/v1/x",
+        "id": "151BUVKmiB9rHDjIkgbeVE",
+        "name": "Apollo Brown",
+        "type": "artist",
+        "uri": "spotify:artist:151BUVKmiB9rHDjIkgbeVE"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 201613,
+    "explicit": true,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/x"
+    },
+    "href": "https://api.spotify.com/v1/x",
+    "id": "3YuvKoHlqPpMZX0CBtVRaR",
+    "is_local": false,
+    "name": "Gas Mask",
+    "preview_url": null,
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:3YuvKoHlqPpMZX0CBtVRaR"
+  },
+  "currently_playing_type": "track",
+  "actions": {
+    "disallows": {
+      "resuming": true,
+      "toggling_repeat_context": true,
+      "toggling_repeat_track": true,
+      "toggling_shuffle": true
+    }
+  }
+}

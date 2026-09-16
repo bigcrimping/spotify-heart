@@ -1,0 +1,19 @@
+{
+  "spotify_client_id": "",
+  "getsongbpm_key": "",
+  "serial_port": "auto",
+  "hr_window_s": 30,
+  "hr_min_readings": 5,
+  "hr_max_spread": 8,
+  "hr_min": 40,
+  "hr_max": 180,
+  "hr_stale_s": 300,
+  "bpm_tol": 3,
+  "allow_half_double": true,
+  "tempo_mode": "auto",
+  "genres": [],
+  "poll_s": 5,
+  "queue_lead_ms": 15000,
+  "no_repeat_n": 20,
+  "dry_run": false
+}

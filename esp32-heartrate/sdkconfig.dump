@@ -1,0 +1,6 @@
+# Extra defaults for the frame-dump diagnostic build (PLAN.md Phase 3 step 6).
+# Build it into its own directory WITH its own sdkconfig so the normal build
+# stays untouched (defaults are only applied when the sdkconfig is created,
+# so the project-root sdkconfig must not be reused here):
+#   idf.py -B build_dump -DSDKCONFIG=build_dump/sdkconfig -DSDKCONFIG_DEFAULTS="sdkconfig.defaults;sdkconfig.dump" -p COMx build flash
+CONFIG_HR_DUMP_FRAMES=y

@@ -1,0 +1,24 @@
+{
+  "devices": [
+    {
+      "id": "device-id",
+      "is_active": false,
+      "is_private_session": false,
+      "is_restricted": false,
+      "name": "Test Device",
+      "supports_volume": false,
+      "type": "Smartphone",
+      "volume_percent": 100
+    },
+    {
+      "id": "device-id",
+      "is_active": false,
+      "is_private_session": false,
+      "is_restricted": false,
+      "name": "Test Device",
+      "supports_volume": false,
+      "type": "TV",
+      "volume_percent": 0
+    }
+  ]
+}
