@@ -109,15 +109,6 @@ still in front of the radar and real values (roughly 50 to 110) appear about
 once a second. Quit the monitor before starting the app: only one program can
 hold the port.
 
-Notes:
-
-- The firmware includes a workaround for an ESP-IDF 5.2 bug that makes UART1
-  initialisation hang on the C6 (boot loop with an interrupt watchdog panic).
-  See `esp32-heartrate/PLAN.md` section 6 if you hit it on another IDF version.
-- The original Arduino `HeartRateOnly` example from the
-  [Seeed Arduino mmWave library](https://github.com/Seeed-Studio/Seeed_Arduino_mmWave)
-  produces the same output and works with the app too, if you prefer the
-  Arduino IDE.
 
 ### 2. Windows app
 
@@ -236,8 +227,6 @@ the board), `--config PATH`.
 - Both `PLAN.md` files double as the development log, with a status table at
   the top.
 
-Not done yet: packaging the app as a single `.exe` and a run-at-startup
-installer, and the firmware's long-run hardening checks.
 
 ## Credits
 
