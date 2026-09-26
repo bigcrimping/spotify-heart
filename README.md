@@ -8,7 +8,7 @@ matching BPM (or half or double it), and adds one to your Spotify queue just
 before the current track ends. It lives in the tray, with a window for when you
 want to see what is going on.
 
-![The status window](windows-applet/docs/window.png)
+![The sensor and the app](windows-applet/docs/hero.png)
 
 - Heart rate: Seeed MR60BHA2 radar, native ESP-IDF firmware in `esp32-heartrate/`
 - Playback: Spotify Web API (Premium account), tray app in `windows-applet/`
@@ -220,7 +220,8 @@ the board), `--config PATH`.
   captures from the real board, with and without a person present.
 - Frame dump build for the bench: see `esp32-heartrate/sdkconfig.dump`.
 - The screenshots in `windows-applet/docs/` are generated, with made-up tracks:
-  `.\.venv\Scripts\python tools\screenshot_window.py`.
+  `.\.venv\Scripts\python tools\screenshot_window.py`. The banner image is
+  built from a photo plus `window.png` by `tools\make_hero.py`.
 - The radar's serial protocol (frame layout, checksum, message types, and what
   the sensor actually sends) is written up in `esp32-heartrate/PLAN.md`
   section 1.
